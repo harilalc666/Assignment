@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Routes, Route} from "react-router-dom";
 import Homepage from "./Components/Homepage"
-import Courses from "./Components/Courses"
+import Details from "./Components/Details"
 
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
 		<>
 				<Routes>
 					<Route exact path="/" element={<Homepage data={data} person={person} setPerson={setPerson} />} />
-					<Route exact path="/courses" element={<Courses person={person} />} />
+					<Route exact path="/details" element={<Details person={person} />} />
 				</Routes>
 		</>
 	);

@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from "react-router-dom";
 
-function Courses({person}) {
+function Details({person}) {
 	const navigate = useNavigate();
 	const home = () => {
 		return navigate("/");
@@ -21,4 +21,4 @@ function Courses({person}) {
 	)
 }
 
-export default Courses;
+export default Details;

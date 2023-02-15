@@ -9,7 +9,7 @@ function Homepage({data, person, setPerson}) {
         const employeeDetail = data.find((item)=> item.id === id)
         console.log(employeeDetail);
         setPerson([employeeDetail]);
-		return navigate("/courses");
+		return navigate("/details");
 	}
 	return (
 		<>
