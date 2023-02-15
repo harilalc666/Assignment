@@ -13,7 +13,7 @@ function Homepage({data, person, setPerson}) {
 	}
 	return (
 		<>
-			<div className="jumbotron text-center">
+			<div>
 				<h1>Hello Employees</h1>
                 <div>
                 <tbody>

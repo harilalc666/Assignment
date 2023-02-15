@@ -8,13 +8,13 @@ function Details({person}) {
 	}
 	return (
 		<>
-			<div className="card " >
+			<div>
 				<h1>Employee Details </h1>
-				<ul className="list-group list-group-flush">
+				<ul>
                 <li>{person.length > 0 ? `${person[0].id} - ${person[0].name} - ${person[0].job}` : ''}</li>
 				</ul>
 			</div>
-			<button className="btn btn-success" onClick={home}>
+			<button onClick={home}>
 				Back to Home
 			</button>
 		</>
